@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      src="https://kit.fontawesome.com/ae1dca5da3.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>Responsive Starbucks Website Landing Page</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <section>
+      <div class="circle"></div>
+      <header>
+        <a href="#"><img src="img/logo.png" alt="logo" class="logo" /></a>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Menu</a></li>
+          <li><a href="#">What's New</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </header>
+      <div class="content">
+        <div class="textBox">
+          <h2>It's not just Coffee<br />It's <span>Starbucks</span></h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam quo
+            enim at aut praesentium fugiat perspiciatis illum ipsa qui ullam,
+            perferendis maiores dolores sit consectetur deserunt totam
+            laboriosam, vel atque.
+          </p>
+          <a href="#">Learn More</a>
+        </div>
+        <div class="imgBox">
+          <img src="img/img1.png" class="starbucks" alt="starbucks" />
+        </div>
+        <ul class="thumb">
+          <li>
+            <img
+              src="img/img1.png"
+              alt="thumnail"
+              onClick="imgSlider('img/img1.png');changeCircleColor('#017143')"
+            />
+          </li>
+          <li>
+            <img
+              src="img/img2.png"
+              alt="thumnail"
+              onClick="imgSlider('img/img2.png');changeCircleColor('#eb7495')"
+            />
+          </li>
+          <li>
+            <img
+              src="img/img3.png"
+              alt="thumnail"
+              onClick="imgSlider('img/img3.png');changeCircleColor('#d752b1')"
+            />
+          </li>
+        </ul>
+        <ul class="sci">
+          <li>
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+          </li>
+          <li>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+          </li>
+          <li>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <script type="text/javascript" src="main.js"></script>
+  </body>
+</html>
